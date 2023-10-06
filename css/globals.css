@@ -1,0 +1,25 @@
+:root{
+    --PrimaryColor: rgb(0, 143, 43);
+    --SecondaryColor: rgb(0, 190, 102);
+    --LinkText: rgb(0, 0, 150);
+    --ButtonBGColor: rgb(197, 118, 0);
+    --ButtonTextColor: rgb(0, 118, 197);
+    --NavBG: rgb(0, 200, 150);
+    --NavText: rgb(255, 255, 255);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--LinkText);
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
