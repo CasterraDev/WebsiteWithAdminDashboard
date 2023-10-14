@@ -1,0 +1,68 @@
+.wrapper{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 1rem;
+}
+
+.container{
+    padding: 1rem;
+}
+
+.title{
+    font-size: 1.8rem;
+    margin: .5rem 0;
+}
+
+.priceWrapper{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.price{
+    width: fit-content;
+    font-size: 2rem;
+}
+
+.discount{
+    width: 2rem;
+    height: auto;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.discount svg{
+    margin: auto auto;
+}
+
+.discount p{
+    margin: 2px;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltipText{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Half of the width */
+}
+
+.tooltip:hover .tooltipText{
+    visibility: visible;
+}
+
