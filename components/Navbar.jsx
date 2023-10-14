@@ -21,6 +21,7 @@ export default function Navbar() {
                         <Link href="/contact-us">Contact Us</Link>
                     </div>
                 </div>
+                <hr className={`${styles.line} ${(hamChecked ? styles.lineShow : "")}`} />
             </div>
         </>
     )

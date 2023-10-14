@@ -5,7 +5,13 @@
     --ButtonBGColor: rgb(197, 118, 0);
     --ButtonTextColor: rgb(0, 118, 197);
     --NavBG: rgb(0, 200, 150);
+    --NavBGSecondary: rgb(0, 120, 80);
     --NavText: rgb(255, 255, 255);
+    --NavHeight: 80px;
+}
+
+*{
+    max-width: 100vw;
 }
 
 body{
@@ -15,6 +21,12 @@ body{
 }
 
 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+p > a{
     text-decoration: none;
     color: var(--LinkText);
     cursor: pointer;
