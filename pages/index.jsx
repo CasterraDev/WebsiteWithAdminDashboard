@@ -1,9 +1,9 @@
 import Discounts from "../components/Discounts"
-import Service from "../components/Service"
+import Services from "../components/Services"
 import styles from "../css/index.module.css"
 
 export default function index() {
-    return(
+    return (
         <>
             <div className={styles.imageBanner}>
                 <img className={styles.image} src="pexels-andrei-tanase-1271619-scaled.jpg" alt="Hiker on top of a mountain looking at the view" />
@@ -12,7 +12,7 @@ export default function index() {
                     <h3 className={styles.subtext}>Here you’ll find the BEST Hiking gear for you. I share the best ways you can hike if you’re a beginner, Pro, or anyone in between. Our Hiking Gear Reviews will help you save money and keep you safe while out in the wilderness.</h3>
                 </div>
             </div>
-            <Service width="200px"/>
+        <Services />
             <Discounts />
         </>
     )

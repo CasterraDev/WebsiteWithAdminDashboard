@@ -1,0 +1,18 @@
+.wrapper{
+    padding: 2em;
+    padding-bottom: 0;
+}
+
+.wrapper h1{
+    text-decoration: underline;
+}
+
+.servicesWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.servicesWrapper:first-child{
+    padding-left: 0;
+    margin-left: 0;
+}

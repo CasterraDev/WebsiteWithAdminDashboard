@@ -3,7 +3,7 @@ import styles from "../css/discounts.module.css"
 export default function Discounts() {
     return (
         <div className={styles.wrapper}>
-            <h1 id="discounts">Discounts</h1>
+            <h1 id="discounts" className={styles.header}>Discounts</h1>
             <ul className={styles.cards}>
                 <li className={styles.card}>
                     <img src="../automobile.png" />

@@ -1,5 +1,10 @@
 .wrapper{
     padding: 2rem;
+    padding-top: 0;
+}
+
+.header{
+    text-decoration: underline;
 }
 
 .cards{
