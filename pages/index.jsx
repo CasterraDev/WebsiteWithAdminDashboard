@@ -1,3 +1,4 @@
+import Discounts from "../components/Discounts"
 import Service from "../components/Service"
 import styles from "../css/index.module.css"
 
@@ -12,7 +13,7 @@ export default function index() {
                 </div>
             </div>
             <Service width="200px"/>
-            <h1 id="discounts">Discounts</h1>
+            <Discounts />
         </>
     )
 }
