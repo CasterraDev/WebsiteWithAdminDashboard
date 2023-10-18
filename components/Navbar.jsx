@@ -7,10 +7,10 @@ export default function Navbar() {
     const toggleChecked = () => setHamChecked(value => !value);
     return(
         <>
-            <div className={styles.wrapper}>
+            <nav className={styles.wrapper}>
                 <div className={styles.container}>
                     <div className={styles.logo}>
-                        <Link href="/">Hiker Find</Link>
+                        <Link href="/">Detailing LLC</Link>
                     </div>
                     <label className={`${styles.hamburgerMenu} ${(hamChecked ? styles.checked : "")}`}>
                         <input className={`${styles.input} ${(hamChecked ? styles.checked : "")}`} type="checkbox" onChange={toggleChecked} />
@@ -22,7 +22,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <hr className={`${styles.line} ${(hamChecked ? styles.lineShow : "")}`} />
-            </div>
+            </nav>
         </>
     )
 }

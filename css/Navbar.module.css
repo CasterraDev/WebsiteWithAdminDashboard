@@ -1,7 +1,7 @@
 .wrapper{
     --nav-padding: 20em;
     background-color: var(--NavBG);
-    width: 100%;
+    width: 100vw;
     height: var(--NavHeight);
     color: var(--NavText);
 }
@@ -18,7 +18,7 @@
     width: fit-content;
     height: fit-content;
     color: var(--NavBGSecondary);
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 900;
     padding-left: 2em;
     grid-column-start: 1;
@@ -109,6 +109,7 @@
         height: var(--NavHeight);
         --hamNavPadding: 32px;
         grid-template-columns: auto 1fr;
+        font-size: .8rem;
     }
 
     .lineShow{
