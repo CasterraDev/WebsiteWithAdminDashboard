@@ -1,20 +1,19 @@
-.servicesWrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 4em;
+.whiteBG{
+    background-color: white;
 }
 
 .image{
     position: fixed;
     z-index: -1;
-    bottom: 150px;
+    bottom: 10px;
     width: 100vw;
     color: white;
 }
 
 .imageTextWrapper{
     margin: auto;
-    padding: 4rem;
+    font-size: 1em;
+    padding: 4em;
     background-color: rgba(0,0,0,.2);
 }
 
@@ -24,6 +23,7 @@
     width: 50%;
     padding: .5em;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .imageTextWrapper .titletext{
@@ -35,12 +35,22 @@
 
 
 @media only screen and (max-width: 1800px) and (min-width: 701px) {
-
+    .image{
+        top: 20px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
+    .image{
+        bottom: 40px;
+        transform: scale(3);
+    }
     .imageTextWrapper{
         padding: 1em;
     }
+    .imageTextWrapper *{
+        width: 100%;
+    }
+
 }
 
